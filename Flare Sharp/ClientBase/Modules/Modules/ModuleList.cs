@@ -18,7 +18,7 @@ namespace Flare_Sharp.ClientBase.Modules.Modules
         public override void onDraw(Graphics graphics)
         {
             base.onDraw(graphics);
-            //Draw enabled Keys
+            //Draw enabled modules
             uint yOff = 0;
             foreach (Category cat in CategoryHandler.registry.categories)
             {
